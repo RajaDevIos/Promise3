@@ -1,0 +1,44 @@
+.Data {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 20px;
+    white-space: nowrap;
+    height: 500px;
+    background-color: bisque;
+}
+
+.card1 {
+    position: relative;
+    margin-top: 90px;
+    margin-bottom: 70px;
+    width: 20%;
+    height: 80%; /* Allow card to adjust height based on content */
+    background-color: transparent;
+    flex-shrink: 0;
+    padding: 10px;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    text-align: center; /* Center the content */
+    border-radius: 30px;
+}
+
+
+
+.card1 img {
+    position: relative;
+    justify-content: center;
+    margin-top: 5px;
+    width: 65%;
+    height: 70%;
+
+   
+}
+.card1 h4 {
+    position: relative;
+    margin-top: 50px;
+    font-size: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+  
+}
+
